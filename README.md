@@ -68,3 +68,8 @@ O professor exige que cada integrante trabalhe na sua própria branch; a integra
 ## Avisos
 
 Projeto acadêmico não oficial, sem afiliação à Nintendo, Game Freak ou The Pokémon Company. Personagens e nomes pertencem aos respectivos titulares. Ilustrações carregadas externamente de `PokeAPI/sprites`.
+
+
+## Atualização
+
+Documentação revisada para a entrega acadêmica da disciplina Tecnologia para Frontend Avançado — UNIESP.
