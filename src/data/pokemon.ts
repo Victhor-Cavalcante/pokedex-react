@@ -6,6 +6,9 @@ export type Pokemon = {
 };
 export const typeLabels: Record<PokemonType,string> = {grass:'Planta',poison:'Veneno',fire:'Fogo',water:'Água',electric:'Elétrico',normal:'Normal',flying:'Voador',bug:'Inseto',psychic:'Psíquico',fairy:'Fada',ground:'Terra',rock:'Pedra',fighting:'Lutador',ghost:'Fantasma',ice:'Gelo',dragon:'Dragão'};
 export const typeColors: Record<PokemonType,string> = {grass:'#4DAB70',poison:'#9665B8',fire:'#F17A50',water:'#4B97D5',electric:'#E8AE31',normal:'#8D97A3',flying:'#7C9DDD',bug:'#8FAF44',psychic:'#E46C9A',fairy:'#DB8CC6',ground:'#B58D5B',rock:'#AD9273',fighting:'#C87751',ghost:'#8264A8',ice:'#6ABBC8',dragon:'#6D73BE'};
+/** Glifos exibidos nos filtros; a ordem das chaves define a ordem da lista. */
+export const typeGlyphs: Record<PokemonType,string> = {normal:'◌',fire:'♨',water:'◕',grass:'❧',electric:'ϟ',ice:'❄',fighting:'✦',poison:'☷',ground:'▲',flying:'≋',psychic:'◎',bug:'✳',rock:'◆',ghost:'☾',dragon:'◇',fairy:'✿'};
+export const allTypes: PokemonType[] = Object.keys(typeGlyphs) as PokemonType[];
 const sample = (id:number,name:string,types:PokemonType[],stats:[number,number,number,number,number,number],height:number,weight:number,description:string,habitat:string):Pokemon => ({id,name,types,stats,height,weight,description,habitat});
 export const samplePokemon: Pokemon[] = [
   sample(1,'Bulbasaur',['grass','poison'],[45,49,49,65,65,45],.7,6.9,'Desde o nascimento, uma semente cresce em suas costas e absorve a luz do sol.','Campos e florestas'),
