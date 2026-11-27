@@ -1,4 +1,4 @@
-package com.chatbox.pokedex.controller;
+package com.chatbox.pokedex.dto;
 
 import java.util.List;
 

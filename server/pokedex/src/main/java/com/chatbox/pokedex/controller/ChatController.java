@@ -1,5 +1,7 @@
 package com.chatbox.pokedex.controller;
 
+import com.chatbox.pokedex.dto.ChatRequest;
+import com.chatbox.pokedex.dto.ChatResponse;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

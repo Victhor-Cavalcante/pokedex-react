@@ -1,5 +1,6 @@
 package com.chatbox.pokedex.controller;
 
+import com.chatbox.pokedex.dto.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;

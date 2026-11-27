@@ -1,4 +1,4 @@
-package com.chatbox.pokedex.controller;
+package com.chatbox.pokedex.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;
